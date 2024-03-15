@@ -11,7 +11,6 @@ body {
 
   overflow-x: hidden;
   scroll-behavior: smooth;
- 
 }
 
 #app {
@@ -27,12 +26,11 @@ body {
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
-padding-top: 30px;
+  padding-top: 30px;
   color: rgb(255, 255, 255);
   list-style: none;
   display: flex;
   justify-content: space-between;
- 
 }
 .logo {
   display: flex;
@@ -56,14 +54,13 @@ padding-top: 30px;
 
   border-radius: 10px;
   padding: 3px;
-  
 }
-.nav_link a:hover {   
+.nav_link a:hover {
   background-color: #00ddff;
   color: #11101d;
 }
-.nav_link:hover > a:not(:hover){
-  background:none;
+.nav_link:hover > a:not(:hover) {
+  background: none;
 }
 .logo:hover {
   scale: 1.2;
@@ -125,7 +122,7 @@ padding-top: 30px;
 }
 .home-get-started_icon img {
   width: 23px;
-  height: 23px; 
+  height: 23px;
 }
 .home-get-started_icon {
   position: relative;
@@ -205,8 +202,6 @@ padding-top: 30px;
   position: relative;
   top: -300px;
   right: -400px;
-  
-  
 }
 .home-right .cards {
   position: absolute;
@@ -244,23 +239,21 @@ padding-top: 30px;
   width: 32px;
   height: 32px;
   left: -270px;
-  bottom: -100px; 
- 
- 
+  bottom: -100px;
 }
 .home-right .vector-1 {
   position: relative;
   width: 68px;
   height: 68px;
   left: 40px;
-  bottom: -40px; 
+  bottom: -40px;
 }
 
 .home-right .vector-16 {
   position: absolute;
   top: -10px;
   right: -0px;
-z-index: -2;
+  z-index: -2;
   scale: 2;
 }
 .home-right .robot-hand {
@@ -700,6 +693,8 @@ z-index: -2;
   padding: 50px 0;
   height: 449px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .feature-left {
   width: 570px;
@@ -740,7 +735,6 @@ z-index: -2;
   width: 170px;
   height: 64px;
   border-radius: 10px;
-   
   border-color: #33bbcf;
   font-family: var(--font);
   font-size: 18px;
@@ -748,4 +742,113 @@ z-index: -2;
   line-height: 27px;
   letter-spacing: 0em;
   text-align: center;
+}
+.feature-right-bg_ellipse-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 270px;
+}
+.feature-right-bg_ellipse-main img:nth-child(1) {
+  position: absolute;
+  z-index: -5;
+}
+.feature-right-bg_ellipse-main img:nth-child(2) {
+  position: absolute;
+  z-index: -5;
+}
+.feature-right-bg_ellipse-main img:nth-child(3) {
+  position: absolute;
+  z-index: -5;
+}
+
+feature-right-pay_method img {
+  width: 24px;
+  height: 24px;
+}
+.feature-right-pay_method_selector {
+  display: flex;
+  justify-content: space-between;
+}
+.feature-right-pay_method_selector select {
+  appearance: none;
+  background: none;
+  border: none;
+  color: white;
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+.feature-right-pay_method_selector option {
+  background: rgb(0, 0, 0);
+  backdrop-filter: blur(35px);
+}
+
+.feature-right-pay_method {
+  background: linear-gradient(140.32deg, #ffffff -277.16%, #14101d 66.28%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 262px;
+  height: 110px;
+
+  padding: 30px 20px;
+  border-radius: 20px;
+}
+.feature-right-pay_method_gate-section {
+  display: flex;
+  justify-content: space-between;
+}
+.feature-right-pay_method_gate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  background: white;
+}
+
+.feature-right-pay_method_gate img {
+  width: 32px;
+  height: 32px;
+}
+.feature-right-analysis {
+  width: 236px;
+  height: 218px;
+  background: linear-gradient(140.32deg, #ffffff -277.16%, #14101d 66.28%);
+  padding: 20px;
+  border-radius: 20px;
+}
+.feature-right-analysis-title_and_time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-right-analysis-title_and_time .feature-right-analysis-title {
+  color: white;
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.feature-right-analysis-title_and_time select{
+  background-color: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.52);font-family: var(--font);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+   
+  
+}
+.feature-right-analysis-title_and_time select option{
+  color: rgba(255, 255, 255, 0.52);font-family: var(--font);
+  background: #000;
 }
