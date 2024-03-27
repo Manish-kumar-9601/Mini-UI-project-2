@@ -10,7 +10,7 @@
 body {
   background: rgba(0, 4, 15, 1) no-repeat;
 
-  overflow-x: hidden;
+ 
 }
 
 #app {
@@ -20,6 +20,7 @@ header {
   padding: 0 135px;
 }
 .nav_bar {
+  width: unset;
   background: transparent;
   font-family: var(--font);
   font-size: 16px;
@@ -1259,12 +1260,11 @@ footer .footer-company {
   #app {
     padding: 0 0px;
     flex-direction: column;
-    width:362px
-    /* overflow: hidden; */
+    width:unset;
+    overflow: hidden;
   }
   header {
-    max-width: 400px;
-    min-width: 360px;
+    width: unset;
     padding: 0;
   }
   .nav_bar {
@@ -1278,8 +1278,7 @@ footer .footer-company {
     padding-top: 20px;
     color: rgb(255, 255, 255);
     list-style: none;
-    max-width: 414px;
-    min-width: 360px;
+     width: unset;
     display: flex;
     justify-content: space-between;
   }
@@ -1382,8 +1381,8 @@ footer .footer-company {
 
   #home-main {
     margin-bottom: 150px;
-    height: 130vh;
- width: 362px;
+    height: 140vh;
+ width: unset;
    
   }
 
@@ -1391,6 +1390,8 @@ footer .footer-company {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: unset;
   }
 
@@ -1425,13 +1426,14 @@ footer .footer-company {
   .home-get-started_icon {
     position: relative;
     top: -10px;
-    right: 30px;
+    right: 10px;
     width: 80px;
   }
 
   .home-left-title {
+    padding-top: 30px;
     margin-top: 30px;
-    width: 350px;
+    width: unset;
     color: rgb(255, 255, 255);
     font-family: var(--font);
   }
@@ -1462,7 +1464,7 @@ footer .footer-company {
     flex-direction: column;
     flex-wrap: wrap;
     text-wrap: balance;
-    width: 360px;
+    width: unset;
     height: 93px;
     margin-top: 16px;
     align-items: flex-start;
@@ -1495,21 +1497,25 @@ footer .footer-company {
     display: flex;
     font-family: var(--font);
     font-size: 13px;
+    
   }
 
   #aboutUs {
+    margin-top: 160px;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:center;
+    gap: 30px;
   width:unset;
+
   }
 
   .about-first {
     flex-direction: column;
     gap: 280px;
+    
   }
   .about-first-left {
-    max-width: 360px;
-    min-width: 350px;
+  width: unset;
   }
   .about-first-left-title_and_description {
    width: unset;
@@ -1539,6 +1545,7 @@ footer .footer-company {
 
   .about-first-right {
     display: grid;
+    margin-top: 120px;
 
     font-family: var(--font);
   }
@@ -1549,9 +1556,7 @@ footer .footer-company {
     text-wrap: balance;
     font-size: 16px;
 
-    max-width: 280px;
-    width: 270px;
-    min-width: 200px;
+   width: unset;
   }
 
   .about-first-right-details .icon {
@@ -1560,8 +1565,7 @@ footer .footer-company {
     margin: 10px 10px 10px 0px;
   }
   .about-first-right-reward {
-    max-width: 350px;
-    min-width: 330px;
+    width: unset;
 
     font-size: 16px;
 
@@ -1590,8 +1594,7 @@ footer .footer-company {
     text-align: left;
     border-radius: 20px;
     height: 100px;
-    max-width: 350px;
-    min-width: 330px;
+width: unset;
     padding-bottom: 20px;
   }
   .about-first-right-secured:hover {
@@ -1614,8 +1617,7 @@ footer .footer-company {
     text-align: left;
     border-radius: 20px;
     height: 100px;
-    max-width: 350px;
-    min-width: 330px;
+ width: unset;
     padding-bottom: 20px;
   }
 
@@ -1811,7 +1813,7 @@ footer .footer-company {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 320px;
+    width: 275px;
     height: unset;
     border-radius: 10px;
   }
@@ -1856,21 +1858,21 @@ footer .footer-company {
     height: unset;
     display: grid;
     overflow: hidden;
-
+    width: unset;
     align-items: center;
   }
   .feature-left {
     display: flex;
     flex-direction: column;
-    width: 340px;
+    width: unset;
     justify-content: space-between;
     gap: 30px;
   }
 
   .feature-left-title {
-    max-width: 360px;
-    width: 340px;
-    min-width: 300px;
+ 
+    width: unset;
+ 
     color: white;
     font-family: var(--font);
     font-size: 48px;
@@ -1881,8 +1883,7 @@ footer .footer-company {
     text-wrap: balance;
   }
   .feature-left-description {
-    max-width: 360px;
-    min-width: 300px;
+    width: unset;
     font-family: var(--font);
     font-size: 18px;
     font-weight: 400;
@@ -2162,7 +2163,7 @@ footer .footer-company {
     flex-direction: column;
     justify-content: space-between;
     gap: 100px;
-    overflow: hidden;;
+    width: unset;
   }
   .solution-section-1 {
     display: grid;
@@ -2200,13 +2201,13 @@ footer .footer-company {
     display: flex;
     width: unset;
     flex-direction: column;
+    justify-content: center;
     gap: 20px;
   }
 
   .solution-section-2-cards {
     font-family: var(--font);
     width: unset;
-
     padding: 40px 20px;
     border-radius: 20px;
     display: flex;
@@ -2325,8 +2326,7 @@ footer .footer-company {
   }
   .solution-section-3-service-trial-description {
     color: rgba(255, 255, 255, 0.7);
-    width: 300px;
-
+    width: unset;
     font-size: 18px;
     font-weight: 400;
     line-height: 29px;
@@ -2399,7 +2399,7 @@ footer .footer-company {
     letter-spacing: 0em;
     text-align: left;
     color: rgba(255, 255, 255, 0.7);
-    width: 310px;
+    width: unset;
     height: 64px;
     text-wrap: balance;
   }
