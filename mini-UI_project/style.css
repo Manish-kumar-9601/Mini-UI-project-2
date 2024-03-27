@@ -202,10 +202,10 @@ header {
   top: -150px;
   right: 0;
   height: 1000px;
-  width: 850px;
+  width: 900px;
   object-fit: contain;
   z-index: -10;
-}
+} 
 
 .ellipe-parent{
   overflow: hidden;
@@ -556,7 +556,6 @@ header {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-
   display: grid;
   align-items: center;
   justify-content: center;
@@ -574,7 +573,6 @@ header {
 
 .about-second-left-last_transaction_date {
   color: rgba(255, 255, 255, 0.7);
-
   text-align: left;
   font-size: 12px;
   font-weight: 400;
@@ -593,13 +591,10 @@ header {
   justify-content: space-evenly;
   width: 324px;
   height: 54px;
-
   border-radius: 10px;
 }
 .about-second-left-payment_screen {
-  position: relative;
-  right: -260px;
-  bottom: -70px;
+ align-items: center;
 }
 
 .about-second-right {
@@ -1264,6 +1259,7 @@ footer .footer-company {
   #app {
     padding: 0 0px;
     flex-direction: column;
+    width:362px
     /* overflow: hidden; */
   }
   header {
@@ -1386,8 +1382,9 @@ footer .footer-company {
 
   #home-main {
     margin-bottom: 150px;
-    height: 140vh;
-    overflow: hidden;
+    height: 130vh;
+ width: 362px;
+   
   }
 
   .home {
@@ -1425,10 +1422,10 @@ footer .footer-company {
   .home-left_discount p span {
     color: rgb(255, 254, 254);
   }
-  .home-get-started_icon img {
+  .home-get-started_icon {
     position: relative;
-    top: 100px;
-    right: -30px;
+    top: -10px;
+    right: 30px;
     width: 80px;
   }
 
@@ -1489,7 +1486,7 @@ footer .footer-company {
     margin-top: 600px;
     flex-wrap: wrap;
     width: unset;
-    min-width: 320px;
+ height: 1px;
     font-size: 16px;
     text-transform: uppercase;
     line-height: 2px;
@@ -1503,7 +1500,7 @@ footer .footer-company {
   #aboutUs {
     flex-direction: column;
     justify-content: space-between;
-    overflow: hidden;
+  width:unset;
   }
 
   .about-first {
@@ -1515,20 +1512,19 @@ footer .footer-company {
     min-width: 350px;
   }
   .about-first-left-title_and_description {
-    max-width: 360px;
-    min-width: 340px;
+   width: unset;
     height: 154px;
     text-wrap: balance;
   }
   .about-first-left-title {
-    max-width: 340px;
+    width: unset;
     font-size: 33px;
     font-weight: 600;
     line-height: 42px;
     text-wrap: balance;
   }
   .about-first-left-description {
-    max-width: 390px;
+    width: unset;
 
     text-align: left;
     text-wrap: balance;
@@ -1635,13 +1631,13 @@ footer .footer-company {
     margin-top: 80px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .about-second-left-payment_way {
- 
     position: relative;
-   right: 90px;
+   right: -10px;
+   margin-bottom: 30px;
     display: flex;
     font-family: var(--font);
     font-size: 22px;
@@ -1725,7 +1721,8 @@ footer .footer-company {
     border-color: #33bbcf;
   }
   .about-second-left-payment_make {
-    width: 137.97px;
+    width: unset;
+    padding:0 10px ;
     height: 33px;
     background: linear-gradient(
       157.81deg,
@@ -1743,7 +1740,7 @@ footer .footer-company {
     width: 245px;
     height: 240px;
     border-radius: 9.12px;
-    padding: 25px 15px;
+    padding: 45px 15px;
     background: linear-gradient(113.08deg, #ffffff -242.51%, #14101d 85.56%);
     box-shadow: -0.24321705102920532px -0.24321705102920532px 0.364825576543808px
       0px rgba(0, 0, 0, 0.36) inset;
@@ -1803,20 +1800,23 @@ footer .footer-company {
   }
   .about-second-left-payment_success_notice {
     position: relative;
-    right: -15px;
-    top: -25px;
+    margin-top: 40px;
+    right: unset;
+    left: unset;
     background: rgba(255, 255, 255, 1);
     color: #11101d;
     font-family: var(--font);
+    font-size: 13px;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 314px;
-    height: 44px;
+    width: 320px;
+    height: unset;
     border-radius: 10px;
   }
   .about-second-left-payment_screen {
-    margin-right: 10px;
+    
   }
 
   .about-second-right {
@@ -1945,7 +1945,7 @@ footer .footer-company {
   .feature-right-analysis {
     position: relative;
     top: -10px;
-    left: 120px;
+    left: 100px;
     right: unset;
     width: 200px;
     height: 218px;
@@ -2109,7 +2109,7 @@ footer .footer-company {
     padding: 20px 20px;
     border-radius: 20px;
     position: relative;
-    left: 30px;
+    left: 10px;
     right: unset;
   }
 
